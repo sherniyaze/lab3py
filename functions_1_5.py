@@ -1,3 +1,7 @@
-mystring = str(input())
-x = len(mystring)
-print(x)
+import itertools
+
+string_N = input()
+
+permut = itertools.permutations(string_N)
+
+print([''.join(p) for p in permut])

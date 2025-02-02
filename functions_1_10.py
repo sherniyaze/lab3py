@@ -1,16 +1,13 @@
-list_of_nums = []
-n = int(input())
-i = 0
-for x in range(n):
-    num = int(input())
-    for x in range(n):
-        if num != list_of_nums[i] and i == n-1:
-            list_of_nums.append(num)
-        elif num != list_of_nums[i] and i != n-1:
-            continue
-        else:
-            continue
+def setlist(list_k):
+    list_1 = []
+    for num in list_k:
+        if num not in list_1:
+            list_1.append(num)
+    return list_1
 
-    
-
-print(list_of_nums)
+size = int(input())
+list_k = []
+for x in range(size):
+    nums = int(input())
+    list_k.append(nums)
+print(setlist(list_k))

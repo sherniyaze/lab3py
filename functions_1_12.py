@@ -1,13 +1,12 @@
-def histogram(numbers_of_row):
-    x = len(numbers_of_row)
-    for _ in range(x):
-        
-        for z in numbers_of_row[y]
+def histogram(numberslist):
+    for x in numberslist:
+        print("*" * x)
 
-nums = []
+
+my_list = []
 x = int(input())
 for _ in range(x):
-    numbers = int(input())
-    nums.append(numbers)
-histogram(numbers_of_row)
-#i is a number of rows, le
+    num = int(input())
+    my_list.append(num)
+histogram(my_list)
+

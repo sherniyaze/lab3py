@@ -1,4 +1,6 @@
 def FahrtoCentigr(fahr):
-    print(f"{(5/9)*(fahr-32)}°F")
+    return(5/9)*(fahr-32)
 fahr = float(input())
-FahrtoCentigr(fahr)
+x = FahrtoCentigr(fahr)
+print(f"{x:.2f}°C")
+

@@ -1,6 +1,8 @@
 def myfavfunc(grams):
-    print(f"{grams * 28.3495231} ounces")
+    return grams * 28.3495231
 
 grams = float(input())
-myfavfunc(grams)
+x = myfavfunc(grams)
+print(f"There are {x} ounces")
+
 
